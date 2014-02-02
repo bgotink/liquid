@@ -2,7 +2,7 @@
 
 ## HEAD / branch "master"
 
-* NOP
+* allow newlines in tags
 
 # Liquid Version History
 
