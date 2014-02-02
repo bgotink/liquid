@@ -1,3 +1,9 @@
+# Liquid Fork Version History
+
+## HEAD / branch "master"
+
+* NOP
+
 # Liquid Version History
 
 ## 3.0.0 / not yet released / branch "master"
