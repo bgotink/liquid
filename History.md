@@ -2,7 +2,7 @@
 
 ## HEAD / branch "master"
 
-* NOP
+* fetched/cherry-picked commits from @binarycleric to support {* comment *}
 
 # Liquid Version History
 
