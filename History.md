@@ -3,6 +3,7 @@
 ## HEAD / branch "master"
 
 * allow newlines in tags
+* fetched/cherry-picked commits from @binarycleric to support {* comment *}
 
 # Liquid Version History
 

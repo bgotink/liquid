@@ -3,6 +3,7 @@ module Liquid
     IsTag             = /^#{TagStart}/o
     IsVariable        = /^#{VariableStart}/o
     FullToken         = /^#{TagStart}\s*(\w+)\s*((?:.|\s)*)?#{TagEnd}$/o
+    IsComment         = /^#{CommentStart}/o
     ContentOfVariable = /^#{VariableStart}(.*)#{VariableEnd}$/o
 
     def blank?
@@ -19,6 +20,8 @@ module Liquid
 
       while token = tokens.shift
         case token
+        when IsComment
+          # do nothing, it's a comment.
         when IsTag
           if token =~ FullToken
 
