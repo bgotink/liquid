@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/Shopify/liquid.png?branch=master)](http://travis-ci.org/Shopify/liquid)
+[![Build Status](https://secure.travis-ci.org/bgotink/liquid.png?branch=master)](http://travis-ci.org/bgotink/liquid)
 # Liquid template engine
 
 * [Contributing guidelines](CONTRIBUTING.md)
